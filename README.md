@@ -2,7 +2,11 @@
 A walk through of website design using Advanced CSS and SASS. 
 
 ## Run project
-Afer cloning, use the `npm run build:css` to build css files and then run the project with `npm run start`
+Install modules by running `npm install`
+
+Afer cloning, use the `npm run build:css` to build css files. 
+
+Run the project with `npm run start`
 
 ### Credit
 Developed by David Kaggulire.
