@@ -1,6 +1,10 @@
 # css-startup
 A walk through of website design using Advanced CSS and SASS. 
 
+## View project
+SImply click on this link to view the project
+https://davidkaggulire.github.io/css-startup/
+
 ## Run project
 Install modules by running `npm install`
 
