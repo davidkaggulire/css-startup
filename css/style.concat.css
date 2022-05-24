@@ -1230,9 +1230,11 @@ body {
 }
 @media only screen and (max-width: 56.25em) {
   .popup__right {
+    overflow-y: scroll;
     width: 100%;
     display: inline-block;
     float: left;
+    padding: 1rem 3rem;
   }
 }
 .popup__img {
@@ -1245,6 +1247,11 @@ body {
     padding: 1.5rem;
     float: left;
     border-radius: 2.5rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .popup__img {
+    display: none;
   }
 }
 .popup__text {

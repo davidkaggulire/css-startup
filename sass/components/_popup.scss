@@ -48,9 +48,11 @@
       padding: 3rem 5rem;
 
         @include respond(tab-port) {
+            overflow-y: scroll;
             width: 100%;
             display: inline-block;
             float: left;
+            padding: 1rem 3rem;
         }
     }
 
@@ -63,6 +65,10 @@
             padding: 1.5rem;
             float: left;
             border-radius: 2.5rem;
+        }
+
+        @include respond(phone) {
+           display: none;
         }
     }
 
